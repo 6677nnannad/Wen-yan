@@ -1,26 +1,19 @@
 {
-  "name": "image-upload-api",
+  "name": "wenyan-image-server",
   "version": "1.0.0",
-  "description": "Image upload and management API for Vercel",
+  "description": "图片上传和显示服务",
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build step required'",
-    "start": "echo 'Use vercel dev for development'"
+    "deploy": "vercel --prod"
   },
   "dependencies": {
-    "formidable": "^3.5.1",
-    "uuid": "^9.0.1"
+    "@vercel/node": "^2.0.0"
   },
   "devDependencies": {
-    "@vercel/node": "^3.0.0"
+    "vercel": "^28.0.0"
   },
-  "keywords": [
-    "image",
-    "upload",
-    "api",
-    "vercel"
-  ],
-  "author": "Your Name",
-  "license": "MIT"
+  "engines": {
+    "node": ">=18.x"
+  }
 }
