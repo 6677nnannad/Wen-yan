@@ -1,0 +1,26 @@
+{
+  "name": "image-upload-api",
+  "version": "1.0.0",
+  "description": "Image upload and management API for Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "echo 'Use vercel dev for development'"
+  },
+  "dependencies": {
+    "formidable": "^3.5.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "keywords": [
+    "image",
+    "upload",
+    "api",
+    "vercel"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
