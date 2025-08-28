@@ -1,0 +1,12 @@
+{
+  "name": "wenyan-image-server",
+  "version": "1.0.0",
+  "description": "图片上传和显示服务",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.x"
+  }
+}
